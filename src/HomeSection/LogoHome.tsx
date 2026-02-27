@@ -1,92 +1,39 @@
 import React from 'react';
-import "../Styles/Home.css";
-import "../Styles/animation.css";
-import logo from "../assets/Home0.png";
-import {Github,Clarivate,Orcid,Dblb,ResearchGate,Semanticscholar,GoogleScholr} from "../Services/Calls";
-import { FaGithub} from 'react-icons/fa';
-import { FaGoogleScholar } from 'react-icons/fa6';
-import { FaChevronDown } from 'react-icons/fa';
-import {
-  SiResearchgate,
-  SiSemanticscholar,
-  SiDblp,
-  SiOrcid,
-  SiClarivate,
-} from 'react-icons/si';
-import RecentNews from './RecentNews';
+import '../Styles/Home.css';
+import logo from '../assets/LogoImage.png';
 
 const LogoHome: React.FC = () => {
-
-  const scrollToNews = () => {
-    const newsSection = document.querySelector('[data-section="recent-news"]');
-    if (newsSection) {
-      newsSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
-    <>
-      <section id="home" className="hero">
-        <div className="container">
-          <div className="hero-content">
-            <h1 className="hero-title group-hover-wrapper">
-              Hello, I'm <br />
-              <span className="name-hover-group">
-                 Debesh Jha <span className="wave-on-hover">👋</span>
-              </span>
-            </h1>
-            <h2 className="hero-subtitle">Assistant Professor (Tenure Track), AI Researcher & Medical Imaging Scientist</h2>
-            <div className="responsive-padding">
-              <p className="hero-description">
-               I'm a top-ranked AI researcher developing advanced models and datasets like Colon-SegNet and Kvasir-SEG to enhance medical imaging, 
-               diagnostics, and real-world healthcare. Recognized among the world's top 2% scientists and a 2024 Top Scholar by ScholarGPS, my work 
-               supports radiologists through intelligent, ethical technologies.</p>
-            </div>
-            <div className="social-icons">
-              <IconBox Icon={FaGoogleScholar} onClick={GoogleScholr} />
-              <IconBox Icon={FaGithub} onClick={Github} />
-              <IconBox Icon={SiClarivate} onClick={Clarivate} />
-              <IconBox Icon={SiOrcid} onClick={Orcid} />
-              <IconBox Icon={SiDblp} onClick={Dblb} />
-              <IconBox Icon={SiResearchgate} onClick={ResearchGate} />
-              <IconBox Icon={SiSemanticscholar} onClick={Semanticscholar} />
-            </div>
-
-          </div>
-          <div className="hero-image">
-            <div className="image-wrapper">
-              <img src={logo} alt="Portrait of Debesh Jha" className="profile-img" />
-            </div>
-          </div>
+    <section className="min-h-screen flex items-center justify-center px-6 py-20 md:py-24 bg-white">
+      <div className="w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between gap-12 md:gap-16">
+        <div className="w-full max-w-4xl text-center md:text-left order-2 md:order-1 md:pt-0">
+          <p className="text-2xl md:text-3xl lg:text-4xl text-gray-600 font-medium mb-0">
+            Welcome to
+          </p>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight leading-[1.15] pb-2 hero-gradient-text -mt-1">
+            <span className="block">Perception</span>
+            <span className="block mt-0 whitespace-nowrap">Intelligence Lab</span>
+          </h1>
+          <p className="mt-6 md:mt-8 text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed max-w-2xl">
+            Perception Intelligence Lab was founded by Prof. Debesh Jha in May 2026, located at the Department of Computer Science, University of South Dakota, Vermillion, SD.
+          </p>
+          <a
+            href="#discover"
+            className="inline-block mt-6 md:mt-8 px-8 py-3.5 text-base font-semibold text-white rounded-lg bg-[#0ed6e8] hover:opacity-90 transition-opacity duration-200 shadow-md hover:shadow-lg"
+          >
+            Discover more
+          </a>
         </div>
-        
-        
-        <div className="scroll-indicator" onClick={scrollToNews}>
-          <FaChevronDown className="scroll-arrow animate-bounce" />
+        <div className="flex-1 flex justify-center md:justify-end order-1 md:order-2 w-full md:w-auto">
+          <img
+            src={logo}
+            alt="Perception Intelligence Lab"
+            className="w-[75vw] max-w-xs sm:max-w-sm md:w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl h-auto object-contain md:scale-125 md:origin-center"
+          />
         </div>
-      </section>
-      
-      
-      <div data-section="recent-news">
-        <RecentNews />
       </div>
-    </>
+    </section>
   );
 };
-
-const IconBox = ({
-  Icon,
-  onClick,
-}: {
-  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-  onClick: () => void;
-}) => (
-  <div className="border rounded-full hover:border-blue-500 hover:shadow-sm hover:shadow-blue-500">
-    <Icon
-      className="text-4xl p-2 text-black rounded-full duration-300 hover:bg-blue-500 hover:text-white cursor-pointer"
-      onClick={onClick}
-    />
-  </div>
-);
 
 export default LogoHome;

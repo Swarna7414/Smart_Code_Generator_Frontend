@@ -16,6 +16,24 @@
   font-family: 'Pacifico', cursive;
 }
 
+.logo-wordmark {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  word-spacing: 0.35em;
+  line-height: 1;
+}
+@media (min-width: 640px) {
+  .logo-wordmark {
+    font-size: 0.9375rem;
+  }
+}
+@media (min-width: 1024px) {
+  .logo-wordmark {
+    font-size: 1rem;
+  }
+}
+
 .cursive-italianno {
   font-family: 'Italianno', cursive;
 }

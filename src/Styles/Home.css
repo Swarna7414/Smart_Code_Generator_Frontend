@@ -165,7 +165,7 @@
   margin: 0 auto;
 }
 
-/* Recent News Section Styles */
+
 .recent-news-section {
   scroll-behavior: smooth;
 }
@@ -188,7 +188,7 @@
   transform: scale(1.1);
 }
 
-/* Scroll Indicator Styles */
+
 .scroll-indicator {
   position: absolute;
   bottom: 30px;
@@ -232,12 +232,12 @@
   }
 }
 
-/* Smooth scroll behavior for the entire page */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Animation for news items appearing */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -253,7 +253,7 @@ html {
   animation: fadeInUp 0.6s ease-out forwards;
 }
 
-/* Gradient text effect for section headers */
+
 .gradient-text {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   -webkit-background-clip: text;
@@ -261,7 +261,7 @@ html {
   background-clip: text;
 }
 
-/* Responsive adjustments for news section */
+
 @media (max-width: 768px) {
   .news-grid {
     grid-template-columns: 1fr;
@@ -348,4 +348,36 @@ html {
   .hero-image {
     order: 2;
   }
+}
+
+
+@keyframes logo-bounce-twice {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+.logo-bounce-twice {
+  animation: logo-bounce-twice 0.6s ease-in-out 1;
+}
+
+
+.hero-gradient-text {
+  background: linear-gradient(
+    90deg,
+    #5B86E5,
+    #36D1DC,
+    #5B86E5,
+    #36D1DC
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: gradient-text-flow 20s ease-in-out infinite;
+}
+
+@keyframes gradient-text-flow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
