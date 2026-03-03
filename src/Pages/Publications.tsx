@@ -10,13 +10,14 @@ interface Publication {
 }
 
 const publications: Publication[] = [
-  // Journals
+  // these are the Jornals for refrebce
   {
     id: 1,
     title: "Validating polyp and instrument segmentation methods in colonoscopy through Medico 2020 and MedAI 2021 Challenges",
     authors: "D. Jha et al.",
     venue: "Medical Image Analysis, 2024",
     type: "Journal",
+    link: "https://arxiv.org/pdf/2307.16262",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "Nature Scientific Data, 2023",
     type: "Journal",
+    link: "https://arxiv.org/pdf/2106.04463",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ const publications: Publication[] = [
     authors: "D. Jha",
     venue: "PhD Thesis, 2022",
     type: "Journal",
+    link: "https://munin.uit.no/handle/10037/23693",
   },
   {
     id: 4,
@@ -38,6 +41,7 @@ const publications: Publication[] = [
     authors: "N. Tomar, D. Jha et al.",
     venue: "IEEE Transactions on Neural Networks and Learning Systems, 2022",
     type: "Journal",
+    link: "https://arxiv.org/pdf/2103.17235",
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ const publications: Publication[] = [
     authors: "A. Srivastava, D. Jha et al.",
     venue: "IEEE Journal of Biomedical and Health Informatics, 2022",
     type: "Journal",
+    link: "https://arxiv.org/pdf/2105.07451",
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const publications: Publication[] = [
     authors: "R. Khadka, D. Jha et al.",
     venue: "Computers in Biology and Medicine, 2022",
     type: "Journal",
+    link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=mMTyE68AAAAJ&citation_for_view=mMTyE68AAAAJ:WA5NYHcadZ8C",
   },
   {
     id: 7,
@@ -59,6 +65,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "Medical Image Analysis, vol. 70, 2021",
     type: "Journal",
+    link: "https://www.sciencedirect.com/science/article/pii/S1361841521000530",
   },
   {
     id: 8,
@@ -66,6 +73,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "IEEE Journal of Biomedical and Health Informatics, 2021",
     type: "Journal",
+    link: "https://pubmed.ncbi.nlm.nih.gov/33400658/",
   },
   {
     id: 9,
@@ -73,6 +81,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "IEEE Journal of Biomedical and Health Informatics, 2021",
     type: "Journal",
+    link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7968127/",
   },
   {
     id: 10,
@@ -80,6 +89,7 @@ const publications: Publication[] = [
     authors: "T. Ross, A. Reinke, D. Jha et al.",
     venue: "Medical Image Analysis, vol. 70, 2021",
     type: "Journal",
+    link: "https://www.sciencedirect.com/science/article/pii/S136184152030284X",
   },
   {
     id: 11,
@@ -87,6 +97,7 @@ const publications: Publication[] = [
     authors: "V. Thambawita, D. Jha et al.",
     venue: "ACM Transactions on Computing for Healthcare, vol. 1, no. 3, 2021",
     type: "Journal",
+    link: "https://dl.acm.org/doi/10.1145/3386295",
   },
   {
     id: 12,
@@ -94,6 +105,7 @@ const publications: Publication[] = [
     authors: "P. Smedsrud*, H. Gjestang*, O. Nedrejord*, E. Næss*, V. Thambawita*, S. Hicks*, H. Borgli*, D. Jha* et al.",
     venue: "Nature Scientific Data [equally contributed], 2021",
     type: "Journal",
+    link: "https://www.nature.com/articles/s41597-021-00920-z",
   },
   {
     id: 13,
@@ -101,6 +113,7 @@ const publications: Publication[] = [
     authors: "H. Borgli*, V. Thambawita*, P. Smedsrud*, S. Hicks*, D. Jha*, S. Eskeland et al.",
     venue: "Nature Scientific Data [Contributed equally], 2020",
     type: "Journal",
+    link: "https://www.nature.com/articles/s41597-020-00622-y",
   },
   {
     id: 14,
@@ -108,14 +121,16 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "Journal of Healthcare Engineering, 2017",
     type: "Journal",
+    link: "https://onlinelibrary.wiley.com/doi/10.1155/2017/9060124",
   },
-  // Conferences
+  // Conf
   {
     id: 15,
     title: "CT Liver Segmentation via PVT-based Encoding and Refined Decoding",
     authors: "D. Jha et al.",
     venue: "ISBI, 2024",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2401.09630",
   },
   {
     id: 16,
@@ -123,6 +138,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "ICML ML4MHD Workshop, 2023",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2307.08140",
   },
   {
     id: 17,
@@ -130,6 +146,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "MIDL, 2023",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2303.07428",
   },
   {
     id: 18,
@@ -137,6 +154,7 @@ const publications: Publication[] = [
     authors: "N. K. Tomar, A. Shergill, B. Rieders, U. Bagci, & D. Jha",
     venue: "IEEE BHI, 2022",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2206.08985",
   },
   {
     id: 19,
@@ -144,6 +162,7 @@ const publications: Publication[] = [
     authors: "N. K. Tomar, D. Jha, U. Bagci, Sharib Ali",
     venue: "MICCAI, 2022",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2205.04280",
   },
   {
     id: 20,
@@ -151,6 +170,7 @@ const publications: Publication[] = [
     authors: "G.-P. Ji, Y.-C. Chou, D.-P. Fan, G. Chen, H. Fu, D. Jha, L. Shao",
     venue: "MICCAI, 2021",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2105.08468",
   },
   {
     id: 21,
@@ -158,6 +178,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "IEEE BHI, 2021",
     type: "Conference",
+    link: "https://ieeexplore.ieee.org/document/9508610",
   },
   {
     id: 22,
@@ -165,6 +186,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "IEEE CBMS, 2021",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2104.11138",
   },
   {
     id: 23,
@@ -172,6 +194,7 @@ const publications: Publication[] = [
     authors: "S. A. Hicks, D. Jha, V. Thambawita, P. Halvorsen and M. Riegler",
     venue: "ICPR Workshop, 2020",
     type: "Conference",
+    link: "https://home.simula.no/~paalh/publications/files/icpr2020-endotect.pdf",
   },
   {
     id: 24,
@@ -179,6 +202,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "PDCAT-PAAP, 2020",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2101.02268",
   },
   {
     id: 25,
@@ -186,6 +210,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "CBMS, 2020",
     type: "Conference",
+    link: "https://arxiv.org/pdf/2006.04868",
   },
   {
     id: 26,
@@ -193,6 +218,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "IEEE ISM, 2019",
     type: "Conference",
+    link: "https://arxiv.org/pdf/1911.07069",
   },
   {
     id: 27,
@@ -200,6 +226,7 @@ const publications: Publication[] = [
     authors: "D. Jha et al.",
     venue: "IEEE ISM, 2019",
     type: "Conference",
+    link: "https://arxiv.org/pdf/1911.07067",
   },
 ];
 
@@ -219,7 +246,7 @@ const Publications: React.FC = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-black mb-2 tracking-tight">Publications</h1>
         <p className="text-gray-500 text-base md:text-lg mb-8">Research publications by the Perception Intelligence Lab.</p>
 
-        {/* Filter tabs */}
+        {/* Filter 3 tabs */}
         <div className="flex flex-wrap gap-2 mb-10">
           {types.map(t => (
             <button
