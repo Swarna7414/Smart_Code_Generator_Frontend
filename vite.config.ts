@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/Frontend/',
+  base: '/Smart_Code_Generator_Frontend/',
   plugins: [
     react(),
     tailwindcss(),
