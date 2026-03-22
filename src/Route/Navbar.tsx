@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import "../Styles/component.css";
-import logoImg from "../assets/reallog.png";
+import logoImg from "../assets/LogoImage.png";
 
 const Navbar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);

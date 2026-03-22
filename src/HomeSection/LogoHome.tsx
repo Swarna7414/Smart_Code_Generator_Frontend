@@ -17,13 +17,13 @@ const LogoHome: React.FC = () => {
             <span className="block mt-0 whitespace-nowrap">Code Generator</span>
           </h1>
           <p className="mt-6 md:mt-8 text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed max-w-2xl">
-            This is a simple AI system that can generate Python code, run it, detect errors, and improve the solution automatically. 
+            This is a simple AI system that can generate code, run it, detect errors, and improve the solution automatically. 
             Instead of writing code only once, it uses a loop where it checks its mistakes and fixes them step by step until the code works correctly. 
             This project demonstrates how an AI can not only create code but also learn from its errors to produce better results over time
           </p>
           <button
             onClick={() => navigate('/research')}
-            className="inline-block mt-6 md:mt-8 px-8 py-3.5 text-base font-semibold text-white rounded-lg bg-[#0ed6e8] hover:opacity-90 transition-opacity duration-200 shadow-md hover:shadow-lg"
+            className="inline-block mt-6 md:mt-8 px-8 py-3.5 text-base font-semibold text-white rounded-lg bg-[#0ed6e8] hover:opacity-90 transition-opacity duration-200 shadow-md hover:shadow-lg cursor-pointer"
           >
             Get Started
           </button>
@@ -32,7 +32,7 @@ const LogoHome: React.FC = () => {
           <img
             src={logo}
             alt="Perception Intelligence Lab"
-            className="w-[75vw] max-w-xs sm:max-w-sm md:w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl h-auto object-contain md:scale-125 md:origin-center"
+            className="lg:mt-24 w-[100vw] max-w-sm sm:max-w-md md:w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl h-auto object-contain md:scale-150 md:origin-center"
           />
         </div>
       </div>

@@ -536,7 +536,7 @@ const FixCodeTab: React.FC = () => {
           <button
             onClick={analyze}
             disabled={!code.trim()}
-            className="w-full py-2.5 rounded-xl font-semibold text-sm bg-[#0ed6e8] hover:opacity-90 text-white disabled:opacity-40 disabled:cursor-not-allowed transition-opacity"
+            className="w-full py-2.5 rounded-xl font-semibold text-sm bg-[#0ed6e8] hover:opacity-90 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-opacity"
           >
             Analyze Code
           </button>
@@ -774,7 +774,7 @@ const LearnCodeTab: React.FC = () => {
           <button
             onClick={explain}
             disabled={!code.trim()}
-            className="w-full py-2.5 rounded-xl font-semibold text-sm bg-[#0ed6e8] hover:opacity-90 text-white disabled:opacity-40 disabled:cursor-not-allowed transition-opacity"
+            className="w-full py-2.5 rounded-xl font-semibold text-sm bg-[#0ed6e8] hover:opacity-90 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-opacity"
           >
             Explain Code
           </button>
@@ -1098,7 +1098,7 @@ const AgentLab: React.FC = () => {
                 <button
                   onClick={runAgent}
                   disabled={isRunning || !task.trim()}
-                  className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-semibold text-sm bg-[#0ed6e8] hover:opacity-90 active:opacity-80 text-white disabled:opacity-40 disabled:cursor-not-allowed transition-opacity"
+                  className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg font-semibold text-sm bg-[#0ed6e8] hover:opacity-90 active:opacity-80 text-white disabled:opacity-40 disabled:cursor-not-allowed cursor-pointer transition-opacity"
                 >
                   {isRunning
                     ? <><FiLoader size={15} className="animate-spin" /> Running…</>
