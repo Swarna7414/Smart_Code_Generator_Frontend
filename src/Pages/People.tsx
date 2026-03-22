@@ -17,37 +17,26 @@ interface Person {
 const people: Person[] = [
   {
     id: 1,
-    name: "Nikhil Kumar Tomar",
-    role: "Researcher",
-    bio: "Researcher at Northwestern University specializing in medical image segmentation and deep learning. Co-author of 24+ publications including FANet, TransNetR, TransResU-Net, and NanoNet. Contributes to AI-driven solutions for colonoscopy, polyp detection, and biomedical image analysis.",
-    initials: "NT",
-    links: {
-      github: "https://github.com/nikhilroxtomar",
-      linkedin: "https://www.linkedin.com/in/nktomar",
-    },
-  },
-  {
-    id: 2,
-    name: "Harshith Reddy Nalla",
-    role: "Undergraduate Research Assistant",
-    bio: "Undergraduate Research Assistant at the University of South Dakota, mentored by Professor Debesh Jha. Works on AI-powered medical imaging and intelligent web applications integrating deep learning and scalable backend systems.",
-    initials: "HN",
-    links: {
-      github: "https://github.com/HarshithReddy01",
-      linkedin: "https://www.linkedin.com/in/harshith-reddy-nalla-6005012ab/",
-      website: "https://harshithreddy01.github.io/My-Web/",
-    },
-  },
-  {
-    id: 3,
     name: "Sai Sankar Swarna",
-    role: "Graduate Assistant",
-    bio: "Graduate Assistant at the University of South Dakota specializing in Computer Science. Experienced in Spring Boot, Java, Python, and DevOps tools, contributing to scalable backend systems and academic instruction.",
-    initials: "SS",
+    role: "Graduate Student, Computer Science",
+    bio: "Full Stack Developer with 3.5+ years of experience building scalable web applications using React, Java, and Python. Skilled in microservices, RESTful APIs. Experienced in deploying on AWS (EC2, ECS, EKS) with CI/CD via Jenkins. Also working with Generative AI and Agentic AI to build intelligent, AI-powered applications and automation agents.",
+    initials: "SSS",
     links: {
       website: "https://swarna7414.github.io/SwarnaSaiSankar/",
       linkedin: "https://www.linkedin.com/in/swarna-sai-sankar-a1084a203",
       github: "https://github.com/Swarna7414",
+    },
+  },
+  {
+    id: 2,
+    name: "Ramya Dabbara",
+    role: "Graduate Student, Computer Science",
+    bio: "CS graduate student with a strong interest in Agentic AI and its real-world applications. ~3 years of experience building intelligent systems with Python and ML frameworks. Recent projects include an AI-powered Resume Evaluation Tool using Google Gemini and a personalized study path generator using Reinforcement Learning.",
+    initials: "RD",
+    links: {
+      website: "https://ramya2000-7.github.io/Ramya-portfolio/",
+      linkedin: "https://www.linkedin.com/in/ramya-dabbara-7a573b349/",
+      github: "https://github.com/Ramya2000-7",
     },
   },
 ];

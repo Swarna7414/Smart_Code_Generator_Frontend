@@ -74,12 +74,8 @@ const mobileNavLinkClasses = () =>
       >
         <header className="flex flex-row items-center gap-6 py-2 px-6 bg-black/70 backdrop-blur-xl border border-white/30 w-fit rounded-4xl">
           <NavLink to="/home" className={navLinkClasses}>Home</NavLink>
-        <NavLink to="/news" className={navLinkClasses}>News</NavLink>
-        <NavLink to="/research" className={navLinkClasses}>Research</NavLink>
-        <NavLink to="/publications" className={navLinkClasses}>Publications</NavLink>
-        <NavLink to="/courses" className={navLinkClasses}>Courses</NavLink>
-        <NavLink to="/people" className={navLinkClasses}>People</NavLink>
-        <NavLink to="/join-us" className={navLinkClasses}>Join us</NavLink>
+          <NavLink to="/research" className={navLinkClasses}>Project</NavLink>
+          <NavLink to="/about" className={navLinkClasses}>About</NavLink>
         </header>
       </div>
 
@@ -108,12 +104,8 @@ const mobileNavLinkClasses = () =>
       >
         <div className="flex flex-col gap-4 text-md p-6 pt-20 bg-white shadow-xl min-h-full">
           <NavLink to="/home" className={mobileNavLinkClasses}>Home</NavLink>
-          <NavLink to="/news" className={mobileNavLinkClasses}>News</NavLink>
-          <NavLink to="/research" className={mobileNavLinkClasses}>Research</NavLink>
-          <NavLink to="/publications" className={mobileNavLinkClasses}>Publications</NavLink>
-          <NavLink to="/courses" className={mobileNavLinkClasses}>Courses</NavLink>
-          <NavLink to="/people" className={mobileNavLinkClasses}>People</NavLink>
-          <NavLink to="/join-us" className={mobileNavLinkClasses}>Join us</NavLink>
+          <NavLink to="/research" className={mobileNavLinkClasses}>Project</NavLink>
+          <NavLink to="/about" className={mobileNavLinkClasses}>About</NavLink>
         </div>
       </div>
     </div>
