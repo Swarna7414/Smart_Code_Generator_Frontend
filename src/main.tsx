@@ -8,7 +8,7 @@ import React from 'react';
 
 createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename='/Frontend'>
+    <BrowserRouter basename='/Smart_Code_Generator_Frontend/'>
       <App/>
     </BrowserRouter>
   </React.StrictMode>
