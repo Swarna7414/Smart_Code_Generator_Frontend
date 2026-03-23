@@ -87,7 +87,7 @@ interface AnalysisResult {
   recommendation: string;
 }
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://saisankarswarna-smart-code-generator.hf.space";
 
 const StatusBadge: React.FC<{ status: string; mode?: string | null }> = ({ status, mode }) => {
   const map: Record<string, { label: string; cls: string; icon: React.ReactNode }> = {
